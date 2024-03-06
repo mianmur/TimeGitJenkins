@@ -55,8 +55,12 @@ public class Time
 //			System.out.println("An unexpected Exception occurred");
 //		}
 		
+//		int totalSeconds = getTotalSeconds("10:10:10");
+//		System.out.println("Total Seconds = " +totalSeconds);
+		
+
 		int totalSeconds = getTotalSeconds("10:10:10");
-		System.out.println("Total Seconds = " +totalSeconds);
+		System.out.println("**GH Total Seconds = "+totalSeconds);
 	}
 
 	public static int getTotalSeconds(String time)throws NumberFormatException, StringIndexOutOfBoundsException {
